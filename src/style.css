@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --roxo-principal: #7c3aed;
+  --roxo-claro: #b69cff;
+  --roxo-footer: #a78bfa;
+  --fundo: #f1ecff;
+  --branco: #ffffff;
+  --texto: #1f1f2e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--fundo);
+  font-family: "Montserrat", sans-serif;
+  color: var(--texto);
+}
+
+header {
+  width: 100%;
+  background: linear-gradient(135deg, var(--roxo-principal), var(--roxo-claro));
+  color: var(--branco);
+  text-align: center;
+  padding: 90px 20px;
+}
+
+header h1 {
+  font-size: 42px;
+  font-weight: 800;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.titulo-secao {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1f1633;
+  margin: 32px 0 16px;
+}
+
+section {
+  background: var(--branco);
+  padding: 24px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  box-shadow: 0 8px 20px #7c3aed14;
+}
+
+section p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #444;
+}
+
+.spanSobreMim {
+  color: var(--roxo-principal);
+}
+
+button {
+  background-color: var(--roxo-principal);
+  color: var(--branco);
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.links-contato {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.links-contato a {
+  background-color: #ede9fe;
+  color: var(--roxo-principal);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+.links-contato a:hover {
+  background-color: var(--roxo-principal);
+  color: var(--branco);
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  background-color: #ede9fe;
+  color: #6d28d9;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 20px;
+  margin: 6px;
+}
+
+footer {
+  width: 100%;
+  background: linear-gradient(135deg, var(--roxo-principal), var(--roxo-footer));
+  color: var(--branco);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 25px;
+}
+
+footer p {
+  margin: 0;
+}
+
