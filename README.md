@@ -1,16 +1,63 @@
-# React + Vite
+# Portfólio React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido como atividade prática utilizando React e Vite, com o objetivo de apresentar informações profissionais de forma organizada e responsiva.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* React
+* Vite
+* JavaScript
+* HTML5
+* CSS3
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Apresentação pessoal
+* Seção "Sobre Mim"
+* Contato com links para GitHub e LinkedIn
+* Exibição dinâmica de telefone utilizando useState
+* Listagem de experiências utilizando componentes reutilizáveis
+* Listagem de habilidades utilizando renderização com map()
+* Interface estilizada com CSS personalizado
 
-## Expanding the ESLint configuration
+## Conceitos React Aplicados
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Componentização
+* Props
+* useState
+* Renderização de listas com map()
+* Organização de projeto em componentes reutilizáveis
+
+## Como Executar o Projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/gabrielamontescoelho/Portfolio.git
+```
+
+Acesse a pasta do projeto:
+
+```bash
+cd Portfolio
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+## Autora
+
+Gabriela Montes Gomes Coelho
+
+GitHub: https://github.com/gabrielamontescoelho
+
+LinkedIn: https://www.linkedin.com/in/gabrielagcoelho
